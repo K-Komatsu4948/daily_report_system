@@ -13,16 +13,15 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 /**
- * Application Lifecycle Listener implementation class PeopetiesListener
+ * Application Lifecycle Listener implementation class PropertiesListener
  *
  */
 @WebListener
-public class PeopetiesListener implements ServletContextListener {
-
-    /**
+public class PropertiesListener implements ServletContextListener {
+   /**
      * Default constructor.
      */
-    public PeopetiesListener() {
+    public PropertiesListener() {
         // TODO Auto-generated constructor stub
     }
 
@@ -56,3 +55,4 @@ public class PeopetiesListener implements ServletContextListener {
     }
 
 }
+
